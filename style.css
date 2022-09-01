@@ -1,0 +1,74 @@
+.wrapper
+{
+	width: 450px;
+	height: auto;
+	margin:50px auto;
+	border: 1px solid #cbcbcb;
+	background:silver; 
+}
+.comment_form
+{
+	width: 300px;
+	height: 350px;
+	margin:150px auto;
+	border: 1px solid green;
+	background:white; 
+	padding: 20px;
+}
+.comment_form label{
+	display: block;
+	margin: 5px 0px 5px 0px;
+}
+.comment_form input, textarea{
+	padding: 5px;
+	width: 200px;
+}
+#submit_btn, #update_btn{
+	padding: 8px 15px;
+	color:white;
+	background: blue;
+	border: none;
+	margin-top: 0px; 
+}
+ 
+.comment_box {
+	cursor: default;
+	margin: 5px;
+	border: 1px solid #cbcbcb;
+	padding: 5px 10px;
+	position:  relative;
+
+}
+.delete {
+	position: absolute;
+	top: 0px;
+	right: 3px;
+	color: red;
+	display: none;
+	cursor: pointer;
+}
+.edit {
+	position: absolute;
+	top: 0px;
+	right: 45px;
+	color: green;
+	display: none;
+	cursor: pointer;
+}
+.comment_box:hover .edit, .comment_box:hover .delete {
+	display: block;
+}
+.comment_text{
+	text-align: justify;
+}
+.display_name{
+		color: blue;
+		padding: 0px;
+		margin: 0px 0px 5px 0px;
+}
+
+
+
+
+
+
